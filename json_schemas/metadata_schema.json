@@ -1,0 +1,11 @@
+{
+    "type": "object",
+    "properties": {
+        "firstname" : { "type": "string" },
+        "age" : { "type": "number"},
+        "kids" : {
+            "type": "array",
+            "items": { "type": "string" }
+        }
+    }
+}
